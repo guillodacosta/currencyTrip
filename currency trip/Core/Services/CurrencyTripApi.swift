@@ -30,7 +30,7 @@ class CurrencyTripAPI: ICurrencyTripAPI {
     private (set) var baseMethod = "GET"
     private (set) var basePort = 3000
     private (set) var baseScheme = "http"
-    private (set) var baseUrl = "currencies"
+    private (set) var baseUrl = "/currencies"
     
     func fetchCurrencies(completion: @escaping (Currency.Fetch.State) -> ()) {
 
